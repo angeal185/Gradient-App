@@ -1,2 +1,2 @@
 # Gradient-App
-JS Gradient APP
+JS Gradient creator APP

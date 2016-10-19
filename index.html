@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="css/index.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/ui.css" type="text/css">
+<title>Gradient creator APP</title>
+</head>
+<body align="center">
+	<h1 style="color: #096ac8; font-size:24px">Gradient creator</h1>
+	<br>
+	<div id="wrap">
+		<div id="mainarea" class="maingrad"></div>
+		<div id="coldwn" class="col"><a id="clk">CLICK ME</a></div>
+	</div>
+	<br>
+<div id="radio">
+	<input type="radio" id="radio1" name="gstyle" class="gt" value="lin" checked="checked" />
+	<label for="radio1">Linear</label>
+	<input type="radio" id="radio2" name="gstyle" class="gt" value="rad" />
+	<label for="radio2">Radial</label>
+	<input type="radio" id="radio3" name="gstyle" class="gt" value="eli" />
+	<label for="radio3">Elliptical</label>
+	<input type="radio" id="radio4" name="gstyle" class="gt" value="rlin" />
+	<label for="radio4">Repeat Linear</label>
+	<input type="radio" id="radio5" name="gstyle" class="gt" value="rrad" />
+	<label for="radio5">Repeat Radial</label>		
+</div>
+<div id="re">
+	<input type="radio" id="radio6" name="gl" class="gts" value="cover" checked="checked" />
+	<label for="radio6">cover</label>
+	<input type="radio" id="radio7" name="gl" class="gts" value="contain" />
+	<label for="radio7">contain</label>
+	<input type="radio" id="radio8" name="gl" class="gts" value="closest-side" />
+	<label for="radio8">closest-side</label>
+	<input type="radio" id="radio9" name="gl" class="gts" value="closest-corner" />
+	<label for="radio9">closest-corner</label>
+	<input type="radio" id="radio0" name="gl" class="gts" value="farthest-side" />
+	<label for="radio0">farthest-side</label>
+	<input type="radio" id="radioa" name="gl" class="gts" value="farthest-corner" />
+	<label for="radioa">farthest-corner</label>		
+</div>
+<br>
+	<table width="100" height="100" border="0" align="center" cellpadding="1" cellspacing="1">
+		<tr>
+			<td><input type="radio" name="radio3" class="rad" id="r" value="left top"></td>
+			<td><input type="radio" name="radio3" class="rad" id="r2" value="top" checked="checked"></td>
+			<td><input type="radio" name="radio3" class="rad" id="r3" value="right top"></td>
+		</tr>
+		<tr>
+			<td><input type="radio" name="radio3" class="rad" id="r6" value="left"></td>
+			<td><input type="radio" name="radio3" class="rad" id="r5" value="center center"></td>
+			<td><input type="radio" name="radio3" class="rad" id="r4" value="right"></td>
+		</tr>
+		<tr>
+			<td><input type="radio" name="radio3" class="rad" id="r7" value="bottom left"></td>
+			<td><input type="radio" name="radio3" class="rad" id="r8" value="bottom"></td>
+			<td><input type="radio" name="radio3" class="rad" id="r9" value="bottom right"></td>
+		</tr>
+	</table>
+	<br>
+	<div id="footer" align="center">
+		<div class="ta" id="tea"><textarea id="taid" placeholder="CSS Generated" readonly></textarea></div>
+		<div class="pre" id="prev"><h1>Preview</h1></div>
+	</div>
+<input type="checkbox" id="wb"><label for="wb">Gradient Background</label><br>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/ui.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/colorpicker.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<br>
+</body>
+</html>
